@@ -2,9 +2,9 @@
 
 ## Description
 
-A website code refactor to clean up html and css and give it more accessibility. Refactoring code to meet a new set of standards and to make it more accessible for people with disabilities can access the website using assistive technologies like video captions, screen readers, and braille keyboards. Also re-organized some of the html semantics and cleaned up some css by consolidating to help better preserve the code long-term.
+A website code refactor to clean up html and css and give it more accessibility. Refactoring code to meet a new set of standards and to make it more accessible for people with disabilities who can access the website using assistive technologies like video captions, screen readers, and braille keyboards. Also re-organized some of the HTML semantics, and cleaned up some of the CSS style-sheet by consolidating to help better preserve the code long-term.
 
-The html and css documents have visible commented documentation of the changes made to clean and refactor the code.
+The HTML and CSS files have visible commented documentation of the changes made in order to clean and refactor the code.
 
 ## User Story
 
@@ -40,7 +40,7 @@ Charlesbarnett1.github.io/horiseon-refector
 
 In the follwing screenshot you can use the nav bar (circled) in the upper right-hand corner of the website to navigate to the information and services from Horiseon that you would like to learn more about.
 
-![Example of Horiseon Website Usage Screenshot](assets/images/screenshot.png)
+![Example of Horiseon Website Usage Screenshot with navbar circled for reference](assets/images/screenshot.png)
 
 ## Credits
 
