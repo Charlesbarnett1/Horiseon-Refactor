@@ -33,7 +33,7 @@ THEN I find a concise, descriptive title
 ## Deployment Link
 
 Here is the link to the new finished webpage with clean and refactored code:
-Charlesbarnett1.github.io/horiseon-refector
+Charlesbarnett1.github.io/Horiseon-Refector/
 
 
 ## Usage
