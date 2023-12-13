@@ -40,7 +40,7 @@ Charlesbarnett1.github.io/horiseon-refector
 
 In the follwing screenshot you can use the nav bar (circled) in the upper right-hand corner of the website to navigate to the information and services from Horiseon that you would like to learn more about.
 
-![Example of Horiseon Website Usage Screenshot with navbar circled for reference](assets/images/screenshot.png)
+![Example of Horiseon Website Usage Screenshot with navbar circled for reference](screenshot.png)
 
 ## Credits
 
