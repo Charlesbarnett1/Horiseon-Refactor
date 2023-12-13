@@ -76,15 +76,15 @@ p {
     background-position: center;
 }
 
-/* Changed content class to an ID because there is only one and moved to better organize stylesheet. */
-#content {
+/* Changed content class to an article element for better semantics and organization and moved to better organize stylesheet. */
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Consolidated all three ID images to just the images under section ID "content" below and moved to better organize stylesheet. */
-#content img {
+/* Consolidated all three ID images to just the images under the element of "article" below and moved to better organize stylesheet. */
+article img {
     max-height: 200px;
 }
 
@@ -129,8 +129,8 @@ p {
     margin-left: 25px;
 }
 
-/* Consolidated the three sub-sections into the main section of "benefits" by adding the margin-bottom and color and gave benefits a unique ID. */
-#benefits {
+/* Consolidated the three sub-sections into the main element of "aside" by adding the margin-bottom and color all to fall under the aside element. */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -143,8 +143,8 @@ p {
     color: #ffffff;
 }
 
-/* Consolidated images under section ID "benefits" below */
-#benefits img {
+/* Consolidated images under the "aside" element below */
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;

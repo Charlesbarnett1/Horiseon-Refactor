@@ -33,20 +33,22 @@
     <!-- Changed div to section below and changed random hero class to "background-image" ID because there is only one and alt text is the link is broken. -->
     <section id="background-image" alt="Main background-image"></section>
 
-    <!-- Changed div to a section below and assigned an ID instead of a class to "content" since it is unique. -->
-    <section id="content">
+    <!-- Changed div to a a more semantic article element below and removed the unnecesary class. -->
+    <article>
 
         <!-- Added the ID seo below to fix link as well as deleted unnecessarry classes since they have IDs. -->
+        <!-- Turned divs into sections for better, more organized semantic html. -->
         <!-- Added alt text to image. -->
-        <div id="Search-Engine-Optimization"> 
+        <section id="Search-Engine-Optimization"> 
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="image representing search engine optimization"/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
+        </section>
 
-        <div id="Online-Reputation-Management"> 
+        <!-- Turned divs into sections for better, more organized semantic html. -->
+        <section id="Online-Reputation-Management"> 
             <!-- Changed float-right to an ID instead of a class since there is only one -->
             <!-- Added alt text to image. -->
             <img src="./assets/images/online-reputation-management.jpg" id="float-right" alt="image representing online reputation management"/>
@@ -54,21 +56,22 @@
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
+        </section>
 
-        <div id="Social-Media-Marketing">
+        <!-- Turned divs into sections for better, more organized semantic html. -->
+        <section id="Social-Media-Marketing">
             <!-- Added alt text to image. -->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="image representing social media marketing"/>
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
+        </section>
 
-    </section>
+    </article>
 
-    <!-- Changed div to a section below and assigned an ID to "benefits" instead of a class since it is unique. -->
-    <section id="benefits">
+    <!-- Changed div to an "aside" element for better html semantics and removed unnecessary class. -->
+    <aside>
 
         <!-- Removed unnecessarry class below -->
         <div>
@@ -100,7 +103,7 @@
             </p>
         </div>
 
-    </section>
+    </aside>
 
     <!-- Removed the div "class footer" below and added an actual footer tag -->
     <footer>
